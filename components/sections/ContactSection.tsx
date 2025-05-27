@@ -40,7 +40,7 @@ export function ContactSection() {
                     className="rounded-3xl flex-1 border-blue-500/50 text-blue-400 hover:bg-blue-500/10 hover:border-blue-400 transition-all duration-300"
                   >
                     <a
-                      href="https://www.linkedin.com/in/alvaro-fernandez-dev/"
+                      href="https://www.linkedin.com/in/alvaroofernaandez/"
                       target="_blank"
                       rel="noopener noreferrer"
                     >

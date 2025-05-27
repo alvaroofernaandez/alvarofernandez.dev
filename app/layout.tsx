@@ -66,6 +66,8 @@ export default function RootLayout({
         <link rel="canonical" href="https://alvarofernandez.dev" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#000000" />
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <link rel="icon" type="image/x-icon" href="/favicon.ico" />
       </head>
       <body className={`${inter.className} antialiased`}>
         <main role="main">{children}</main>

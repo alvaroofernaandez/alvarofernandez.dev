@@ -1,7 +1,7 @@
 export const experience = [
     {
       company: "Hagalink",
-      position: "Socio fundador y CDO",
+      position: "Socio Co-Fundador y CDO",
       period: "2025 - Presente",
       location: "Córdoba, España",
       description:
@@ -10,7 +10,7 @@ export const experience = [
     },
     {
       company: "TangramBPM",
-      position: "Backend Developer - Prácticas",
+      position: "Fullstack Developer - Prácticas",
       period: "Enero 2025 - Junio 2025",
       location: "Córdoba, España",
       description: "Creación de interfaces de usuario modernas y responsivas. Implementación de sistemas de diseño.",
@@ -18,7 +18,7 @@ export const experience = [
     },
     {
       company: "Aula de Software Libre FP Córdoba",
-      position: "Fullstack Developer y Administrador/Fundador",
+      position: "Fullstack Developer y Administrador/Co-Fundador",
       period: "Abril 2024 - Abril 2025",
       location: "Córdoba, España",
       description: "Administrador fundador del Aula de Software Libre de la FP de Córdoba. Desarrollo de proyectos de software libre y promoción del uso de tecnologías abiertas.",

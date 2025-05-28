@@ -1,6 +1,6 @@
 # 🚀 Portfolio Personal - Álvaro Fernández
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-Live-brightgreen)](https://alvarofernandez.dev)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Live-brightgreen)](https://alvarofernandez.is-a.dev)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white)](https://github.com/alvaroofernaaandez)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/alvaroofernaandez)
 
@@ -107,7 +107,7 @@ Las contribuciones son bienvenidas. Por favor:
 - **Email**: alvaroofernaandez@gmail.com
 - **LinkedIn**: [linkedin.com/in/alvaroofernaandez](https://linkedin.com/in/alvaroofernaandez)
 - **GitHub**: [github.com/alvaroofernaandez](https://github.com/alvaroofernaandez)
-- **Portfolio**: [alvarofernandez.dev](https://alvarofernandez.dev)
+- **Portfolio**: [alvarofernandez.dev](https://alvarofernandez.is-a.dev)
 
 ---
 

@@ -54,17 +54,55 @@ export function ProjectsSection() {
                   </div>
 
                   <div className="flex gap-3">
-                    <Button
+                    {/* Botón Frontend */}
+                    {project.github === "Private" ? (
+                      <Button
+                      size="sm"
+                      variant="outline"
+                      className="rounded-3xl border-gray-600 text-gray-400 cursor-not-allowed opacity-60"
+                      disabled
+                      >
+                      <Github className="mr-2 h-4 w-4" />
+                      Frontend Privado
+                      </Button>
+                    ) : (
+                      <Button
                       asChild
                       size="sm"
                       variant="outline"
                       className="rounded-3xl border-gray-600 text-gray-300 hover:bg-blue-500/10 hover:border-blue-500 hover:text-blue-400 transition-all duration-300"
-                    >
+                      >
                       <a href={project.github} target="_blank" rel="noopener noreferrer">
                         <Github className="mr-2 h-4 w-4" />
-                        Código
+                        Frontend
                       </a>
-                    </Button>
+                      </Button>
+                    )}
+
+                    {/* Botón Backend */}
+                    {project.backend === "Private" ? (
+                      <Button
+                      size="sm"
+                      variant="outline"
+                      className="rounded-3xl border-gray-600 text-gray-400 cursor-not-allowed opacity-60"
+                      disabled
+                      >
+                      <Github className="mr-2 h-4 w-4" />
+                      Backend Privado
+                      </Button>
+                    ) : (
+                      <Button
+                      asChild
+                      size="sm"
+                      variant="outline"
+                      className="rounded-3xl border-gray-600 text-gray-300 hover:bg-blue-500/10 hover:border-blue-500 hover:text-blue-400 transition-all duration-300"
+                      >
+                      <a href={project.backend} target="_blank" rel="noopener noreferrer">
+                        <Github className="mr-2 h-4 w-4" />
+                        Backend
+                      </a>
+                      </Button>
+                    )}
                     <Button
                       asChild
                       size="sm"

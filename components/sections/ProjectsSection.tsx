@@ -137,6 +137,15 @@ export function ProjectsSection() {
               </div>
             </div>
           ))}
+
+        </div>
+        <div className="mt-32 text-center">
+          <a 
+            href="https://github.com/alvaroofernaandez"
+            className="rounded-3xl bg-gradient-to-r from-blue-600 to-cyan-600 hover:from-blue-700 hover:to-cyan-700 shadow-lg shadow-blue-500/25 transition-all duration-300 p-3"
+          >
+            Ver más proyectos
+          </a>
         </div>
       </div>
     </AnimatedSection>

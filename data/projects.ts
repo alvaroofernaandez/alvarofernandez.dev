@@ -7,18 +7,18 @@
       technologies: ["Astro", "TypeScript", "Tailwind CSS", "Django", "Docker", "MongoDB", "PostgreSQL", "Kubernetes"],
       github: "https://github.com/alvaroofernaandez/blackline-frontend",
       backend: "https://github.com/alvaroofernaandez/blackline-backend",
-      demo: "#",
+      demo: "https://blackline-tattoo.hagalink.es/",
       mockupType: "desktop",
     },
     {
-      title: "Japantrip gestor de viaje",
+      title: "PWA Gestión de Viaje a Japón ",
       description:
-        "Aplicación web interactiva privada con contador regresivo para viaje a Japón, incluyendo planificador de itinerario, misiones, logros y gestión completa del viaje.",
+        "Aplicación web progresiva privada con contador regresivo para viaje a Japón, incluyendo planificador de itinerario, misiones, logros y gestión completa del viaje.",
       image: "/images/japan-countdown.png",
       technologies: ["React", "Astro", "Tailwind CSS", "Django", "PostgreSQL"],
       github: "Private",
       backend: "Private",
-      demo: "#",
+      demo: "https://pangoviajejapon2025.vercel.app/",
       mockupType: "laptop",
     },
     {
@@ -40,6 +40,17 @@
       github: "https://github.com/AulaSoftwareLibreCordoba/web_aula",
       backend: "https://github.com/alvaroofernaandez/asl-web-api",
       demo: "https://aulasoftwarelibrecordoba.netlify.app/",
+      mockupType: "desktop",
+    },
+    {
+      title: "CinemaVerse",
+      description:
+        "Página web para la búsqueda de películas y series.",
+      image: "/images/cinema-verse.png",
+      technologies: ["Vite", "Javascript", "Tailwind CSS", "React"],
+      github: "https://github.com/alvaroofernaandez/react-buscador-peliculas",
+      backend: "https://github.com/alvaroofernaandez/react-buscador-peliculas",
+      demo: "https://react-buscador-peliculas-delta.vercel.app/",
       mockupType: "desktop",
     },
   ]

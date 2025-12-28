@@ -5,14 +5,39 @@
 @layer base {
   :root {
     --font-inter: "Inter", sans-serif;
+    --font-poppins: "Poppins", sans-serif;
+    --font-satoshi: "Satoshi", "Inter", sans-serif;
+    
+    /* Variables CSS para Tailwind */
+    --background: 0 0% 6%;
+    --foreground: 0 0% 98%;
+    --card: 0 0% 10%;
+    --card-foreground: 0 0% 98%;
+    --popover: 0 0% 10%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 0 72% 51%;
+    --primary-foreground: 0 0% 98%;
+    --secondary: 0 0% 15%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 0 0% 15%;
+    --muted-foreground: 0 0% 64%;
+    --accent: 0 0% 15%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 0% 20%;
+    --input: 0 0% 20%;
+    --ring: 0 72% 51%;
+    --radius: 0.5rem;
   }
 
   * {
-    @apply border-border;
+    border-color: hsl(var(--border));
   }
 
   body {
-    @apply bg-background text-foreground;
+    background-color: hsl(var(--background));
+    color: hsl(var(--foreground));
     font-family: var(--font-inter);
   }
 
@@ -21,27 +46,62 @@
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
   }
+
+  /* Tipografía para títulos - Satoshi */
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-satoshi);
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    line-height: 1.1;
+  }
+
+  /* Ajustes específicos por nivel de título */
+  h1 {
+    font-weight: 800;
+    letter-spacing: -0.04em;
+    line-height: 1;
+  }
+
+  h2 {
+    font-weight: 700;
+    letter-spacing: -0.03em;
+    line-height: 1.1;
+  }
+
+  h3 {
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    line-height: 1.2;
+  }
+
+  h4 {
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    line-height: 1.3;
+  }
+
+  /* Textos y párrafos - Inter Regular */
+  p {
+    font-family: var(--font-inter);
+    line-height: 1.7;
+    font-weight: 400;
+  }
+
+  /* Elementos generales - Inter Regular */
+  span, div, a, li, button, label {
+    font-family: var(--font-inter);
+    font-weight: 400;
+  }
+
+  /* Mejora de legibilidad para textos largos */
+  p, li {
+    font-size: 1rem;
+    line-height: 1.75;
+  }
 }
 
 html {
   scroll-behavior: smooth;
-}
-
-::-webkit-scrollbar {
-  width: 8px;
-}
-
-::-webkit-scrollbar-track {
-  background: #000000;
-}
-
-::-webkit-scrollbar-thumb {
-  background: #1e40af;
-  border-radius: 4px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: #3b82f6;
 }
 
 @keyframes fadeIn {
@@ -67,11 +127,84 @@ html {
       transform: none;
     }
   }
+
+  /* Animaciones modernas */
+  @keyframes float {
+    0%, 100% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+
+  @keyframes shimmer {
+    0% {
+      background-position: -1000px 0;
+    }
+    100% {
+      background-position: 1000px 0;
+    }
+  }
+
+  @keyframes gradient-shift {
+    0%, 100% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+  }
+
+  .animate-float {
+    animation: float 3s ease-in-out infinite;
+  }
+
+  .animate-shimmer {
+    animation: shimmer 2s linear infinite;
+    background: linear-gradient(
+      to right,
+      transparent 0%,
+      rgba(255, 255, 255, 0.1) 50%,
+      transparent 100%
+    );
+    background-size: 1000px 100%;
+  }
+
+  .animate-gradient {
+    background-size: 200% 200%;
+    animation: gradient-shift 3s ease infinite;
+  }
+
+  /* Efectos hover modernos */
+  .hover-lift {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .hover-lift:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+  }
+
+  /* Glassmorphism mejorado */
+  .glass {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .glass-strong {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(30px);
+    -webkit-backdrop-filter: blur(30px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+  }
 }
 
 @layer base {
   *:focus-visible {
-    outline: 2px solid #3b82f6;
+    outline: 2px solid #E63946;
     outline-offset: 2px;
   }
 }
@@ -79,5 +212,147 @@ html {
 @layer utilities {
   .font-black {
     font-weight: 900;
+  }
+
+  /* Utilidades de tipografía */
+  .font-heading {
+    font-family: var(--font-satoshi);
+    font-weight: 700;
+  }
+
+  .font-heading-regular {
+    font-family: var(--font-satoshi);
+    font-weight: 400;
+  }
+
+  .font-body {
+    font-family: var(--font-inter);
+    font-weight: 400;
+  }
+
+  .font-poppins {
+    font-family: var(--font-poppins);
+    font-weight: 400;
+  }
+
+  .font-poppins-medium {
+    font-family: var(--font-poppins);
+    font-weight: 500;
+  }
+
+  .font-satoshi {
+    font-family: var(--font-satoshi);
+    font-weight: 400;
+  }
+
+  .font-satoshi-medium {
+    font-family: var(--font-satoshi);
+    font-weight: 500;
+  }
+
+  /* Tracking ajustado para títulos */
+  .tracking-tight {
+    letter-spacing: -0.025em;
+  }
+
+  .tracking-tighter {
+    letter-spacing: -0.05em;
+  }
+
+  /* Estilos para el blog */
+  .prose {
+    @apply text-gray-300;
+  }
+
+  .prose h1,
+  .prose h2,
+  .prose h3,
+  .prose h4 {
+    @apply text-white font-heading font-black mt-8 mb-4;
+  }
+
+  .prose h1 {
+    @apply text-3xl sm:text-4xl;
+  }
+
+  .prose h2 {
+    @apply text-2xl sm:text-3xl;
+  }
+
+  .prose h3 {
+    @apply text-xl sm:text-2xl;
+  }
+
+  .prose p {
+    @apply mb-4 leading-relaxed;
+  }
+
+  .prose a {
+    @apply text-vermilion-400 hover:text-vermilion-300 transition-colors duration-300;
+  }
+
+  .prose code {
+    @apply bg-gray-800/50 text-vermilion-400 px-1.5 py-0.5 rounded text-sm;
+  }
+
+  .prose pre {
+    @apply bg-gray-900 border border-vermilion-500/20 rounded-lg p-4 overflow-x-auto;
+  }
+
+  .prose pre code {
+    @apply bg-transparent text-gray-300 p-0;
+  }
+
+  .prose blockquote {
+    @apply border-l-4 border-vermilion-500/30 pl-4 italic text-gray-300;
+  }
+
+  .prose ul,
+  .prose ol {
+    @apply mb-4 pl-6;
+  }
+
+  .prose li {
+    @apply mb-2;
+  }
+
+  .prose img {
+    @apply rounded-lg border border-vermilion-500/20 my-4;
+  }
+
+  .line-clamp-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .line-clamp-3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  /* Mejoras adicionales para el blog */
+  .prose h1::before,
+  .prose h2::before {
+    content: "";
+    display: block;
+    height: 0.5em;
+  }
+
+  .prose h1:first-child,
+  .prose h2:first-child {
+    margin-top: 0;
+  }
+
+  .prose blockquote p {
+    margin: 0;
+  }
+
+  .prose code::before,
+  .prose code::after {
+    content: "";
   }
 }

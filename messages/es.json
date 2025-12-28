@@ -1,0 +1,92 @@
+{
+  "nav": {
+    "experiencia": "Experiencia",
+    "sobreMi": "Sobre mí",
+    "blog": "Blog",
+    "contacto": "Contacto"
+  },
+  "hero": {
+    "jobTitle": "UI/UX Product Designer, Software Engineer",
+    "description": "Especializado en crear",
+    "highlight": "experiencias digitales excepcionales",
+    "downloadCV": "Descargar CV",
+    "cv": "CV"
+  },
+  "experience": {
+    "title": "Experiencia Profesional",
+    "subtitle": "Mi trayectoria profesional en el desarrollo de software",
+    "items": {
+      "hagalink": {
+        "position": "Socio Co-Fundador y CDO",
+        "period": "2025 - Presente",
+        "location": "Córdoba, España",
+        "description": "Desarrollo de software a medida para empresas. Implementación de soluciones innovadoras en el sector tecnológico."
+      },
+      "tangram": {
+        "position": "Fullstack Developer - Prácticas",
+        "period": "Enero 2025 - Junio 2025",
+        "location": "Córdoba, España",
+        "description": "Creación de interfaces de usuario modernas y responsivas. Implementación de sistemas de diseño."
+      },
+      "aula": {
+        "position": "Fullstack Developer y Administrador/Co-Fundador",
+        "period": "Abril 2024 - Abril 2025",
+        "location": "Córdoba, España",
+        "description": "Administrador fundador del Aula de Software Libre de la FP de Córdoba. Desarrollo de proyectos de software libre y promoción del uso de tecnologías abiertas."
+      },
+      "peninsular": {
+        "position": "Junior Developer - Prácticas",
+        "period": "Marzo 2024 - Junio 2024",
+        "location": "Córdoba, España",
+        "description": "Desarrollo de sitios web corporativos y e-commerce. Colaboración en proyectos multidisciplinarios."
+      }
+    }
+  },
+  "about": {
+    "title": "Sobre mí",
+    "subtitle": "Conoce más sobre mi experiencia y pasión por el desarrollo",
+    "myStory": "Mi Historia",
+    "paragraph1": "Soy un desarrollador full stack con más de 2 años de experiencia creando software. Me apasiona resolver problemas complejos con código limpio y eficiente. Además de formar parte de iniciativas como ser fundador del Aula de Software Libre de la FP de Córdoba, donde promovemos el uso de tecnologías abiertas y el aprendizaje colaborativo.",
+    "paragraph2": "También he considerado iniciar mi propia startup tecnológica, Hagalink, donde lidero un equipo de desarrollo para crear soluciones innovadoras a medida para empresas.",
+    "paragraph3": "También me gusta aprender nuevas tecnologías y compartir conocimientos con la comunidad de desarrolladores.",
+    "mainTechnologies": "Tecnologías principales",
+    "years": "Años",
+    "projects": "Proyectos",
+    "remote": "Remoto",
+    "experienceDev": "Experiencia en desarrollo",
+    "completed": "Completados exitosamente",
+    "flexibleWork": "Trabajo flexible"
+  },
+  "contact": {
+    "title": "Contacto",
+    "subtitle": "¿Tienes un proyecto en mente? ¡Hablemos!",
+    "workTogether": "¡Trabajemos juntos!",
+    "description": "Estoy disponible para colaboraciones o proyectos freelance, ¡no dudes en contactarme!",
+    "sendEmail": "Enviar Email",
+    "email": "Email",
+    "form": {
+      "name": "Nombre",
+      "namePlaceholder": "Tu nombre",
+      "email": "Email",
+      "emailPlaceholder": "tu@email.com",
+      "message": "Mensaje",
+      "messagePlaceholder": "Cuéntame sobre tu proyecto...",
+      "send": "Enviar Mensaje",
+      "sending": "Enviando...",
+      "success": "¡Mensaje enviado correctamente! Te responderé pronto.",
+      "error": "Error al enviar el mensaje. Por favor, inténtalo de nuevo.",
+      "or": "O contáctame directamente"
+    }
+  },
+  "footer": {
+    "madeWith": "Con",
+    "by": "Álvaro Fernández"
+  },
+  "breadcrumb": {
+    "inicio": "Inicio",
+    "experiencia": "Experiencia",
+    "sobreMi": "Sobre mí",
+    "contacto": "Contacto"
+  }
+}
+

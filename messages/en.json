@@ -1,0 +1,92 @@
+{
+  "nav": {
+    "experiencia": "Experience",
+    "sobreMi": "About Me",
+    "blog": "Blog",
+    "contacto": "Contact"
+  },
+  "hero": {
+    "jobTitle": "UI/UX Product Designer, Software Engineer",
+    "description": "Specialized in creating",
+    "highlight": "exceptional digital experiences",
+    "downloadCV": "Download CV",
+    "cv": "CV"
+  },
+  "experience": {
+    "title": "Professional Experience",
+    "subtitle": "My professional journey in software development",
+    "items": {
+      "hagalink": {
+        "position": "Co-Founder Partner & CDO",
+        "period": "2025 - Present",
+        "location": "Córdoba, Spain",
+        "description": "Custom software development for companies. Implementation of innovative solutions in the technology sector."
+      },
+      "tangram": {
+        "position": "Fullstack Developer - Internship",
+        "period": "January 2025 - June 2025",
+        "location": "Córdoba, Spain",
+        "description": "Creation of modern and responsive user interfaces. Implementation of design systems."
+      },
+      "aula": {
+        "position": "Fullstack Developer and Administrator/Co-Founder",
+        "period": "April 2024 - April 2025",
+        "location": "Córdoba, Spain",
+        "description": "Founding administrator of the Free Software Classroom at Córdoba's Vocational Training. Development of free software projects and promotion of open technologies."
+      },
+      "peninsular": {
+        "position": "Junior Developer - Internship",
+        "period": "March 2024 - June 2024",
+        "location": "Córdoba, Spain",
+        "description": "Development of corporate websites and e-commerce. Collaboration on multidisciplinary projects."
+      }
+    }
+  },
+  "about": {
+    "title": "About Me",
+    "subtitle": "Learn more about my experience and passion for development",
+    "myStory": "My Story",
+    "paragraph1": "I'm a full stack developer with over 2 years of experience creating software. I'm passionate about solving complex problems with clean and efficient code. I'm also part of initiatives like being the founder of the Free Software Classroom at Córdoba's Vocational Training, where we promote the use of open technologies and collaborative learning.",
+    "paragraph2": "I've also considered starting my own tech startup, Hagalink, where I lead a development team to create innovative custom solutions for companies.",
+    "paragraph3": "I also enjoy learning new technologies and sharing knowledge with the developer community.",
+    "mainTechnologies": "Main Technologies",
+    "years": "Years",
+    "projects": "Projects",
+    "remote": "Remote",
+    "experienceDev": "Experience in development",
+    "completed": "Successfully completed",
+    "flexibleWork": "Flexible work"
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Have a project in mind? Let's talk!",
+    "workTogether": "Let's work together!",
+    "description": "I'm available for collaborations or freelance projects, don't hesitate to contact me!",
+    "sendEmail": "Send Email",
+    "email": "Email",
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "Your name",
+      "email": "Email",
+      "emailPlaceholder": "your@email.com",
+      "message": "Message",
+      "messagePlaceholder": "Tell me about your project...",
+      "send": "Send Message",
+      "sending": "Sending...",
+      "success": "Message sent successfully! I'll get back to you soon.",
+      "error": "Error sending message. Please try again.",
+      "or": "Or contact me directly"
+    }
+  },
+  "footer": {
+    "madeWith": "Made with",
+    "by": "Álvaro Fernández"
+  },
+  "breadcrumb": {
+    "inicio": "Home",
+    "experiencia": "Experience",
+    "sobreMi": "About Me",
+    "contacto": "Contact"
+  }
+}
+

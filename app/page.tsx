@@ -1,27 +1,25 @@
 "use client"
 
-import { ParticleBackground } from "@/components/particle-background"
-import { Nav } from "@/components/sections/Nav"
-import { HeroSection } from "@/components/sections/HeroSection"
-import { ExperienceSection } from "@/components/sections/ExperienceSection"
-import { ProjectsSection } from "@/components/sections/ProjectsSection"
-import { TechStackSection } from "@/components/sections/TechStackSection"
-import { AboutMeSection } from "@/components/sections/AboutMeSection"
-import { ContactSection } from "@/components/sections/ContactSection"
-import { Footer } from "@/components/sections/Footer"
+import { Nav } from "@/src/components/layout/nav/nav"
+import { StructuredBreadcrumb } from "@/src/components/seo/structured-breadcrumb"
+import { HeroSection } from "@/src/components/features/hero/hero-section"
+import { ExperienceSection } from "@/src/components/features/experience/experience-section"
+import { AboutSection } from "@/src/components/features/about/about-section"
+import { ContactSection } from "@/src/components/features/contact/contact-section"
 
 export default function Portfolio() {
   return (
-    <div className="min-h-screen bg-black text-gray-100 relative">
-      <ParticleBackground />
-      <Nav />
-      <HeroSection />
-      <ExperienceSection />
-      <ProjectsSection />
-      <TechStackSection />
-      <AboutMeSection />
-      <ContactSection />
-      <Footer />
-    </div>
+    <>
+      <StructuredBreadcrumb />
+      <div className="min-h-screen bg-[#0F0F0F] text-gray-100 relative" suppressHydrationWarning>
+        <Nav />
+        <article itemScope itemType="https://schema.org/Person" suppressHydrationWarning>
+          <HeroSection />
+          <ExperienceSection />
+          <AboutSection />
+          <ContactSection />
+        </article>
+      </div>
+    </>
   )
 }

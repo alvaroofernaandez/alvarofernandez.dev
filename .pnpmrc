@@ -1,0 +1,4 @@
+# Configuración de pnpm para reducir warnings
+auto-install-peers=true
+strict-peer-dependencies=false
+

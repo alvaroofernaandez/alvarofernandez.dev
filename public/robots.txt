@@ -1,0 +1,20 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://alvarofernandez.dev/sitemap.xml
+
+# Disallow admin and private areas (if any)
+Disallow: /api/
+Disallow: /_next/
+Disallow: /admin/
+
+# Allow important pages
+Allow: /
+Allow: /experiencia
+Allow: /sobre-mi
+Allow: /contacto
+
+# Crawl-delay
+Crawl-delay: 1
+

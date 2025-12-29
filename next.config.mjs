@@ -12,7 +12,7 @@ const nextConfig = {
     dangerouslyAllowSVG: false,
     contentDispositionType: "attachment",
     contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
-    qualities: [75, 85],
+    qualities: [75, 85, 90],
   },
   // Optimizaciones de rendimiento
   compress: true,
@@ -54,7 +54,7 @@ const nextConfig = {
         ],
       },
       {
-        source: "/img.jpg",
+        source: "/hero.webp",
         headers: [
           {
             key: "Cache-Control",

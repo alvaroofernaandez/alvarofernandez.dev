@@ -18,26 +18,26 @@ function ExperienceCardComponent({ experience, index }: ExperienceCardProps) {
   return (
     <Card
       className={cn(
-        "group relative bg-gradient-to-br from-gray-900/70 to-gray-800/50 backdrop-blur-xl",
-        "border border-vermilion-500/10 rounded-xl sm:rounded-2xl",
-        "hover:border-vermilion-500/40 transition-all duration-500",
-        "hover:shadow-xl hover:shadow-vermilion-500/20 hover:-translate-y-1",
+        "group relative bg-gradient-to-br from-neutral-900/95 to-neutral-800/90 backdrop-blur-xl",
+        "border-2 border-vermilion-500/50 rounded-xl sm:rounded-2xl",
+        "transition-all duration-500 hover:scale-[1.02]",
+        "shadow-2xl shadow-vermilion-500/30",
         "overflow-hidden active:scale-[0.98]",
         "max-w-4xl mx-auto"
       )}
     >
-      <div className="absolute inset-0 bg-gradient-to-r from-vermilion-500/0 via-vermilion-500/5 to-vermilion-700/0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none" />
-      <div className="absolute left-0 top-0 bottom-0 w-0.5 bg-gradient-to-b from-vermilion-500/50 via-vermilion-700/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+      <div className="absolute inset-0 bg-gradient-to-r from-vermilion-500/0 via-vermilion-500/5 to-vermilion-700/0 opacity-100 transition-opacity duration-500 pointer-events-none" />
+      <div className="absolute left-0 top-0 bottom-0 w-0.5 bg-gradient-to-b from-vermilion-500/50 via-vermilion-700/50 to-transparent opacity-100 transition-opacity duration-500" />
 
       <CardContent className="p-4 sm:p-5 md:p-6 lg:p-7 relative z-10">
         <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between mb-3 sm:mb-4 md:mb-5 gap-3 sm:gap-4">
           <div className="flex-1">
             <div className="flex items-start gap-2.5 sm:gap-3 mb-2 sm:mb-2.5">
-              <div className="mt-0.5 p-1.5 sm:p-2 rounded-lg bg-vermilion-500/10 border border-vermilion-500/20 group-hover:bg-vermilion-500/20 group-hover:border-vermilion-500/40 transition-all duration-300 flex-shrink-0">
+              <div className="mt-0.5 p-1.5 sm:p-2 rounded-lg bg-vermilion-500/20 border border-vermilion-500/40 transition-all duration-300 flex-shrink-0">
                 <Building className="h-4.5 w-4.5 sm:h-5 sm:w-5 text-vermilion-400" />
               </div>
               <div className="min-w-0 flex-1">
-                <h3 className="text-lg sm:text-xl md:text-2xl font-black text-white mb-1 sm:mb-1.5 group-hover:text-vermilion-400 transition-colors duration-300 font-heading leading-tight">
+                <h3 className="text-lg sm:text-xl md:text-2xl font-black text-vermilion-400 mb-1 sm:mb-1.5 transition-colors duration-300 font-heading leading-tight">
                   {t(experience.positionKey)}
                 </h3>
                 <div className="flex items-center text-vermilion-300 mb-1.5">

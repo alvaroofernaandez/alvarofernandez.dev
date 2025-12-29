@@ -157,7 +157,7 @@ npm run start
 │   └── projects.ts
 ├── public/
 │   ├── fonts/                # Fuentes locales
-│   └── img.jpg
+│   └── hero.webp
 └── README.md
 ```
 

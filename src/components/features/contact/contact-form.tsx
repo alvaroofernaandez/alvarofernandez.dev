@@ -71,18 +71,18 @@ export function ContactForm() {
     return (
       <div className="space-y-4 sm:space-y-5 animate-pulse">
         <div className="space-y-2">
-          <div className="h-4 w-20 bg-gray-700/50 rounded"></div>
-          <div className="h-11 sm:h-12 bg-gray-800/50 rounded-md"></div>
+          <div className="h-4 w-20 bg-neutral-700/50 rounded"></div>
+          <div className="h-11 sm:h-12 bg-neutral-800/50 rounded-md"></div>
         </div>
         <div className="space-y-2">
-          <div className="h-4 w-16 bg-gray-700/50 rounded"></div>
-          <div className="h-11 sm:h-12 bg-gray-800/50 rounded-md"></div>
+          <div className="h-4 w-16 bg-neutral-700/50 rounded"></div>
+          <div className="h-11 sm:h-12 bg-neutral-800/50 rounded-md"></div>
         </div>
         <div className="space-y-2">
-          <div className="h-4 w-20 bg-gray-700/50 rounded"></div>
-          <div className="h-32 bg-gray-800/50 rounded-md"></div>
+          <div className="h-4 w-20 bg-neutral-700/50 rounded"></div>
+          <div className="h-32 bg-neutral-800/50 rounded-md"></div>
         </div>
-        <div className="h-12 bg-gray-800/50 rounded-full"></div>
+        <div className="h-12 bg-neutral-800/50 rounded-full"></div>
       </div>
     )
   }
@@ -98,9 +98,9 @@ export function ContactForm() {
           type="text"
           placeholder={t("contact.form.namePlaceholder")}
           className={cn(
-            "h-11 sm:h-12 bg-gray-900/60 border-vermilion-500/20 text-white placeholder:text-gray-500",
+            "h-11 sm:h-12 bg-neutral-900/80 border border-neutral-700/50 text-white placeholder:text-gray-400",
             "focus-visible:border-vermilion-500/60 focus-visible:ring-vermilion-500/30 focus-visible:ring-2",
-            "transition-all duration-300 hover:border-vermilion-500/30",
+            "transition-all duration-300 hover:border-vermilion-500/40",
             errors.name && "border-red-500/50 focus-visible:border-red-500 focus-visible:ring-red-500/20"
           )}
           {...register("name")}
@@ -123,9 +123,9 @@ export function ContactForm() {
           type="email"
           placeholder={t("contact.form.emailPlaceholder")}
           className={cn(
-            "h-11 sm:h-12 bg-gray-900/60 border-vermilion-500/20 text-white placeholder:text-gray-500",
+            "h-11 sm:h-12 bg-neutral-900/80 border border-neutral-700/50 text-white placeholder:text-gray-400",
             "focus-visible:border-vermilion-500/60 focus-visible:ring-vermilion-500/30 focus-visible:ring-2",
-            "transition-all duration-300 hover:border-vermilion-500/30",
+            "transition-all duration-300 hover:border-vermilion-500/40",
             errors.email && "border-red-500/50 focus-visible:border-red-500 focus-visible:ring-red-500/20"
           )}
           {...register("email")}
@@ -148,9 +148,9 @@ export function ContactForm() {
           placeholder={t("contact.form.messagePlaceholder")}
           rows={5}
           className={cn(
-            "min-h-[120px] bg-gray-900/60 border-vermilion-500/20 text-white placeholder:text-gray-500 resize-none",
+            "min-h-[120px] bg-neutral-900/80 border border-neutral-700/50 text-white placeholder:text-gray-400 resize-none",
             "focus-visible:border-vermilion-500/60 focus-visible:ring-vermilion-500/30 focus-visible:ring-2",
-            "transition-all duration-300 hover:border-vermilion-500/30",
+            "transition-all duration-300 hover:border-vermilion-500/40",
             errors.message && "border-red-500/50 focus-visible:border-red-500 focus-visible:ring-red-500/20"
           )}
           {...register("message")}

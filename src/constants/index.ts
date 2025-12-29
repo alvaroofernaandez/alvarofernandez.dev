@@ -16,7 +16,7 @@ export const SITE_CONFIG = {
     email: "mailto:cdo@hagalink.es",
   },
   cv: "/cv.pdf",
-  image: "/img.jpg",
+  image: "/hero.webp",
 } as const
 
 export const NAV_SECTIONS = ["experiencia", "sobre-mi", "contacto"] as const

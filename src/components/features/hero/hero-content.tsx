@@ -17,7 +17,7 @@ function HeroContentComponent() {
           <div className="relative inline-block">
             <h1
               itemProp="name"
-              className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-7xl font-black text-white tracking-tighter mb-2 sm:mb-3 md:mb-4 font-heading relative z-10 drop-shadow-2xl leading-tight"
+              className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-7xl text-white tracking-tighter mb-2 sm:mb-3 md:mb-4 font-heading relative z-10 drop-shadow-2xl leading-tight hero-name-extra-bold"
             >
               <TypewriterText text={SITE_CONFIG.name} />
             </h1>

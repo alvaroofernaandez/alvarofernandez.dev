@@ -39,8 +39,8 @@ function ContactSectionComponent() {
           subtitle={t("contact.subtitle")}
         />
         <div className="max-w-3xl mx-auto">
-          <Card className="group relative bg-gradient-to-br from-gray-900/70 to-gray-800/50 backdrop-blur-xl border-vermilion-500/20 shadow-2xl shadow-vermilion-500/10 hover:border-vermilion-500/40 transition-all duration-500 hover:shadow-vermilion-500/30 overflow-hidden active:scale-[0.98]">
-            <div className="absolute inset-0 bg-gradient-to-r from-vermilion-500/0 via-vermilion-700/5 to-vermilion-500/0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none" />
+          <Card className="group relative bg-gradient-to-br from-neutral-900/95 to-neutral-800/90 backdrop-blur-xl border-2 border-vermilion-500/50 shadow-2xl shadow-vermilion-500/30 transition-all duration-500 overflow-hidden">
+            <div className="absolute inset-0 bg-gradient-to-r from-vermilion-500/0 via-vermilion-700/5 to-vermilion-500/0 opacity-100 transition-opacity duration-500 pointer-events-none" />
 
             <CardContent className="p-5 sm:p-6 md:p-7 lg:p-8 relative z-10">
               <div className="space-y-5 sm:space-y-6 md:space-y-7 lg:space-y-8">

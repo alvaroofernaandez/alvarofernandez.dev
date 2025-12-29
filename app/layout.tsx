@@ -102,7 +102,7 @@ export const metadata: Metadata = {
       "UI/UX Product Designer, Software Engineer. Especializado en diseño de productos digitales, desarrollo de software y liderazgo técnico. Más de 2 años de experiencia creando experiencias digitales excepcionales.",
     images: [
       {
-        url: "https://alvarofernandez.dev/img.jpg",
+        url: "https://alvarofernandez.dev/hero.webp",
         width: 1200,
         height: 630,
         alt: "Álvaro Fernández - UI/UX Product Designer, Software Engineer caminando por un túnel de torii gates en Japón",
@@ -117,7 +117,7 @@ export const metadata: Metadata = {
     title: "Álvaro Fernández | UI/UX Product Designer, Software Engineer",
     description:
       "UI/UX Product Designer, Software Engineer. Especializado en diseño de productos digitales, desarrollo de software y liderazgo técnico. Más de 2 años de experiencia creando experiencias digitales excepcionales.",
-    images: ["https://alvarofernandez.dev/img.jpg"],
+    images: ["https://alvarofernandez.dev/hero.webp"],
   },
   robots: {
     index: true,
@@ -152,6 +152,7 @@ export default function RootLayout({
     <html lang="es" className={`scroll-smooth ${inter.variable} ${poppins.variable} ${satoshi.variable}`}>
       <head>
         <link rel="canonical" href="https://alvarofernandez.dev" />
+        <link rel="preload" href="/hero.webp" as="image" type="image/webp" fetchPriority="high" />
         <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
         <meta name="theme-color" content="#0F0F0F" />
         <meta name="color-scheme" content="dark" />
